@@ -8,7 +8,7 @@ public class DecToBin {
         int binNum = 0;
         while(decnum > 0){
             int remainder = decnum % 2;
-            binNum = binNum + (remainder *(int)Math.pow(2, pow));
+            binNum = binNum + (remainder *(int)Math.pow(10, pow));
             pow++;
             decnum = decnum/2;
         }
