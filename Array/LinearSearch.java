@@ -1,6 +1,5 @@
 package Array;
 
-
 public class LinearSearch {
     public static int linearSearch(int[] array, int target) {
         for (int i = 0; i < array.length; i++) {
@@ -14,7 +13,6 @@ public class LinearSearch {
     public static void main(String[] args) {
         int[] numbers = { 10, 5, 8, 12, 7, 3 };
         int target = 12;
-
         int index = linearSearch(numbers, target);
 
         if (index != -1) {

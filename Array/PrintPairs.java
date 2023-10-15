@@ -1,6 +1,5 @@
 package Array;
 
-
 public class PrintPairs {
     public static void printAllPairs(int[] array) {
         for (int i = 0; i < array.length; i++) {

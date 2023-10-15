@@ -1,0 +1,33 @@
+Array - 
+ array is a list of elements of same type placed in a contiguous memory location.
+
+creation of array -   datatype arrayname[] = new datatype[size];
+                     eg:-   int marks[] = new int[10];
+                            int numbers[] = {1,2,3};
+                            String fruits[] = ("apple", "banana");
+                      
+
+Input --    Scanner sc = new Scanner(System.in);
+            marks[0] = sc.nextInt();
+
+
+print --   
+        System.out.println(marks[0]);
+
+
+update --   
+        marks[0] = sc.nextInt();
+        marks[0] = marks[0] + 1;
+
+
+
+
+Passing arrays as argument ---
+
+       1.pass by value
+       2.pass by reference
+
+Time Compleaxity-- 
+                    time complexity directly proportionsl to loop (length of array).
+
+                    

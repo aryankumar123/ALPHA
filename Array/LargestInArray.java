@@ -14,7 +14,7 @@ public class LargestInArray {
 
     public static void main(String[] args) {
         int[] numbers = { 10, 5, 8, 12, 7, 3 };
-
+        
         int largest = findLargestElement(numbers);
         System.out.println("The largest element in the array is: " + largest);
     }
