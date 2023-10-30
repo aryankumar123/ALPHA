@@ -1,0 +1,28 @@
+Strings are immutable .      // once declared cant be changed
+
+
+Declaration of string ----
+
+        String str = "aryan";
+        String str2 = new String("alok");
+
+
+
+
+ 1.   Using new Keyword:
+        When you create a string using the new keyword, it always creates a new string object, 
+        even if the content is the same as an existing string. 
+        Therefore, comparing two strings created with new using == will check if they reference the same memory location, not if their content is the same.
+
+                String str1 = new String("Hello");
+                String str2 = new String("Hello");
+                boolean result = (str1 == str2); // This will be false
+                
+2.   Without new Keyword:
+        When you create a string without using the new keyword (using string literals), 
+        Java optimizes memory usage by reusing existing string literals. 
+        Therefore, comparing two strings without new using == will check if their content is the same.
+
+                String str1 = "Hello";
+                String str2 = "Hello";
+                boolean result = (str1 == str2); // This will be true

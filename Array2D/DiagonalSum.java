@@ -7,8 +7,8 @@ public class DiagonalSum {
                 { 4, 5, 6 },
                 { 7, 8, 10 }
         };
-        // int sum = diagonalSum(matrix); //brute force
-        int sum = diagonalSumm(matrix); // optimal
+        // int sum = diagonalSum(matrix);                     //brute force
+        int sum = diagonalSumm(matrix);                          // optimal
         System.out.println(sum);
     }
 
