@@ -1,7 +1,6 @@
 package Recursion;
 
-public class nsturalNumberSum {
-
+public class FirstNaturalNumberSum {
     public static int nstural(int n) {
         if (n == 1) {
             return 1;
@@ -14,5 +13,4 @@ public class nsturalNumberSum {
         System.out.println(nstural(11112));
 
     }
-    
 }
